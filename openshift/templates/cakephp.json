@@ -132,10 +132,7 @@
               "secret": "${GITHUB_WEBHOOK_SECRET}"
             }
           }
-        ],
-        "postCommit": {
-          "script": "./vendor/bin/phpunit"
-        }
+        ]
       }
     },
     {
